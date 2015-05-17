@@ -299,7 +299,8 @@ body {
 .brazil,
 .bali,
 .iceland,
-.ireland {
+.ireland,
+.coming-soon {
   float: left;
   display: block;
   margin-right: 0%;
@@ -312,7 +313,8 @@ body {
   .brazil:last-child,
   .bali:last-child,
   .iceland:last-child,
-  .ireland:last-child {
+  .ireland:last-child,
+  .coming-soon:last-child {
     margin-right: 0; }
 
 .costa {
