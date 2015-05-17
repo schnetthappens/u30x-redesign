@@ -50,6 +50,15 @@ html {
   text-transform: uppercase;
   border: 1px solid #fff; }
 
+/*DESTINATIONS*/
+.destinations-header {
+  font-size: 4em;
+  font-weight: 300;
+  text-align: center; }
+
+.place {
+  border: 4px solid #fff; }
+
 /*BLOG POSTS*/
 .blog-post-container {
   background-color: #fff; }
@@ -275,17 +284,70 @@ body {
   float: left;
   display: block;
   margin-right: 0%;
-  width: 100%; }
+  width: 100%;
+  height: 1050px; }
   .destinations:last-child {
     margin-right: 0; }
 
-.destinations-left {
+.destinations-header {
+  height: 100px; }
+
+.costa,
+.belize,
+.nicaragua,
+.peru,
+.brazil,
+.bali,
+.iceland,
+.ireland {
   float: left;
   display: block;
   margin-right: 0%;
-  width: 66.66667%; }
-  .destinations-left:last-child {
+  width: 33.33333%;
+  height: 300px; }
+  .costa:last-child,
+  .belize:last-child,
+  .nicaragua:last-child,
+  .peru:last-child,
+  .brazil:last-child,
+  .bali:last-child,
+  .iceland:last-child,
+  .ireland:last-child {
     margin-right: 0; }
+
+.costa {
+  background-color: grey;
+  margin-right: 0;
+  background-image: url("../images/cr1.jpg"); }
+
+.belize {
+  background-image: url("../images/snorkle2.jpg");
+  margin-right: 0; }
+
+.brazil {
+  background-image: url("../images/group.jpg"); }
+
+.nicaragua {
+  background-image: url("../images/group.jpg");
+  margin-right: 0; }
+
+.peru {
+  background-image: url("../images/group.jpg");
+  margin-right: 0; }
+
+.bali {
+  background-image: url("../images/bali3.jpg"); }
+
+.iceland {
+  background-image: url("../images/glacier.jpg");
+  margin-right: 0; }
+
+.ireland {
+  background-image: url("../images/group.jpg");
+  margin-right: 0; }
+
+.coming-soon {
+  background-image: url("../images/group.jpg"); }
 
 /***************/
 /*BLOG POSTS*/
@@ -294,7 +356,8 @@ body {
   float: left;
   display: block;
   margin-right: 0%;
-  width: 100%; }
+  width: 100%;
+  padding-top: 5em; }
   .blog-post-container:last-child {
     margin-right: 0; }
 

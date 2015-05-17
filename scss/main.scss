@@ -113,11 +113,69 @@ body {
 
   .destinations {
     @include span-columns(12);
+    height: 1050px;
   }
 
-  .destinations-left {
-    @include span-columns(8);
-  }
+    .destinations-header {
+      height: 100px;
+    }
+
+      .costa,
+      .belize,
+      .nicaragua,
+      .peru,
+      .brazil,
+      .bali,
+      .iceland,
+      .ireland, {
+        @include span-columns(4 of 12);
+        height: 300px;
+      }
+
+        .costa {
+          background-color: grey;
+          @include omega;
+          background-image: url("../images/cr1.jpg");
+        }
+
+        .belize {
+          background-image: url("../images/snorkle2.jpg");
+          @include omega;
+        }
+
+        .brazil {
+          background-image: url("../images/group.jpg");
+        }
+
+        .nicaragua {
+          background-image: url("../images/group.jpg");
+          @include omega;
+        }
+
+        .peru {
+          background-image: url("../images/group.jpg");
+          @include omega;
+        }
+
+        .bali {
+          background-image: url("../images/bali3.jpg");
+        }
+
+        .iceland {
+          background-image: url("../images/glacier.jpg");
+          @include omega;
+        }
+
+        .ireland {
+          background-image: url("../images/group.jpg");
+          @include omega;
+        }
+
+        .coming-soon {
+          background-image: url("../images/group.jpg");
+        }
+
+
 
 
   /***************/
@@ -126,6 +184,7 @@ body {
 
 .blog-post-container {
   @include span-columns(12);
+  padding-top: 5em;
 }
 
   .blog-intro {

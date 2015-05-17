@@ -66,6 +66,27 @@ $mailing-list-header-color: #fff;
 
 
 
+/*DESTINATIONS*/
+
+$destinations-header: 'Lato', sans-serif;
+$destinations-header-color: #003F45;
+
+  .destinations-header {
+    font-size: 4em;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .place {
+    border: 4px solid #fff;
+  }
+
+
+
+
+
+
+
 /*BLOG POSTS*/
 
 $blog-intro-title-font: 'Lato', sans-serif;
