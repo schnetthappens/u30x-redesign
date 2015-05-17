@@ -1,3 +1,209 @@
- body {
-   background-color: green;
- }
+$gutter: 0em;
+$border-box-sizing: true;
+
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+@import 'fonts';
+
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+.container {
+  @include outer-container(1300px);
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+/***************/
+/*HEADER & NAV */
+/***************/
+
+.primary-content {
+  background-image: url("../images/snorkle.jpg");
+  height: 800px;
+  margin: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+  .primary-nav {
+    @include span-columns(12);
+    height: 80px;
+    margin: 0 auto;
+    background-color: #fff;
+    opacity: 0.9;
+  }
+
+    .primary-nav-logo {
+      @include span-columns(4 of 12);
+      margin: 1em auto;
+      padding-left: 1em;
+    }
+
+    .primary-nav-link-container {
+      @include span-columns(8 of 12);
+      list-style: none;
+      display: inline-block;
+      margin: 0;
+      height: 80px;
+    }
+
+    .primary-nav-links {
+      @include span-columns(1.5 of 8);
+      line-height: 80px;
+    }
+
+
+
+  /***************/
+  /*MAILING LIST*/
+  /***************/
+
+  .mailing-list {
+    @include span-columns(12);
+    height: 100px;
+  }
+
+  .mailing-list h3 {
+    @include span-columns(7 of 12);
+    display: inline-block;
+  }
+
+  .mailing-list input {
+    @include span-columns(3 of 12);
+    display: inline-block;
+  }
+
+  .mailing-list h4 {
+    @include span-columns(2 of 12);
+  }
+
+
+  /***************/
+  /*PRESS*/
+  /***************/
+
+  .press {
+    height: 100px;
+    background-color: #E0E0E0;
+  }
+
+  .press-logos {
+    @include span-columns(12);
+  }
+
+  .press li {
+    @include span-columns(4 of 12);
+    @include omega;
+    list-style: none;
+  }
+
+
+
+  /***************/
+  /*BLOG POSTS*/
+  /***************/
+
+  .destinations {
+    @include span-columns(12);
+  }
+
+  .destinations-left {
+    @include span-columns(8);
+  }
+
+
+  /***************/
+  /*BLOG POSTS*/
+  /***************/
+
+.blog-post-container {
+  @include span-columns(12);
+}
+
+  .blog-intro {
+    @include span-columns(3 of 12);
+  }
+
+  .blog-post {
+    @include span-columns(3 of 12);
+    @include omega;
+
+  }
+
+
+  /***************/
+  /*SIGN UP/
+  /***************/
+
+
+  .signup {
+    @include span-columns(12);
+    height: 332px;
+    background-color: #003F45;
+  }
+
+    .sign-up-info {
+      @include span-columns(6 of 12);
+      padding: 0 5em;
+    }
+
+    .sign-up-form {
+      @include span-columns(6 of 12);
+      display: block;
+      margin: 4em auto;
+    }
+
+    .sign-up-form input {
+      display: block;
+      margin-top: 1em;
+      width: 90%;
+      height: 4.5em;
+    }
+
+    .sign-up-form textarea {
+      display: block;
+      margin: 1em 0;
+      width: 90%;
+      height: 12em;
+    }
+
+
+    /***************/
+    /*FOOTER*/
+    /***************/
+
+  .end-page {
+    @include span-columns(12);
+    height: 80px;
+  }
+
+    .legal-content li {
+      list-style: none;
+      display: inline-block;
+    }
+
+    .legal-content {
+      @include span-columns(4);
+    }
+
+      .legal-content li {
+        @include span-columns(1 of 4);
+      }
+
+    .social-links {
+      @include span-columns(8);
+    }
+
+      .social-links, li {
+        @include span-columns(2 of 8);
+        list-style: none;
+        display: inline-block;
+      }

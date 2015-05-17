@@ -1,0 +1,189 @@
+/*HEADER, including PRIMARY NAV and CONTENT*/
+
+$nav-font: 'Roboto', sans-serif;
+$primary-text-font: 'Lato', sans-serif;
+$primary-nav-link-color: #003F45;
+
+
+.primary-nav {
+  border-bottom: 2px solid $primary-nav-link-color;
+}
+
+
+.primary-nav-links {
+  font-family: $nav-font;
+  font-weight: 300;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #003F45;
+  text-align: center;
+}
+
+.primary-text {
+  font-family: $primary-text-font;
+  font-weight: 400;
+  color: #fff;
+  position: relative;
+  top: 150px;
+  left: 160px;
+}
+
+
+
+/*MAILING LIST*/
+
+$mailing-list-color: #003F45;
+$mailing-list-header-font: 'Lato', sans-serif;
+$mailing-list-header-color: #fff;
+
+
+.mailing-list {
+  background-color: $mailing-list-color;
+}
+
+.mailing-list-header {
+  font-family: $mailing-list-header-font;
+  font-size: 5em;
+  color: $mailing-list-header-color;
+  padding-left: 1em;
+}
+
+.mailing-list input {
+  height: 5em;
+  margin: 2em auto;
+}
+
+.mailing-list h4 {
+  background-color: $mailing-list-color;
+  font-family: $mailing-list-header-font;
+  font-size: 2em;
+  font-weight: 300;
+  color: #fff;
+  padding: 1em;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+}
+
+
+
+/*BLOG POSTS*/
+
+$blog-intro-title-font: 'Lato', sans-serif;
+$blog-intro-title-color: #003F45;
+$blog-intro-subhead-color: #003F45;
+$blog-post-font: 'Roboto', sans-serif;
+$blog-post-title-color: #003F45;
+$blog-post-text-color: #003F45;
+$blog-post-content-color: #E0E0E0;
+
+
+
+.blog-post-container {
+  background-color: #fff;
+}
+
+
+.blog-intro-content {
+  padding: 0 5em;
+}
+
+.blog-intro-title {
+  font-family: $blog-intro-title-font;
+  font-size: 5em;
+  color: $blog-intro-title-color;
+}
+
+.blog-intro-subhead {
+  font-size: 3em;
+  font-weight: 300;
+  color: $blog-intro-subhead-color;
+}
+
+.blog-post {
+  font-family: $blog-post-font;
+  font-weight: 300;
+}
+
+  .blog-post-content {
+    height: 350px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em 2em;
+  }
+
+  .blog-post-title {
+    font-size: 4em;
+    font-weight: 300;
+    color: $blog-post-title-color;
+  }
+
+  .blog-post-date {
+    font-size: 1em;
+    font-weight: 400;
+  }
+
+  .blog-post-text {
+    margin: 1em 0;
+    font-size: 2em;
+    color: $blog-post-text-color;
+    line-height: 2em;
+  }
+
+
+
+/*SIGN-UP INFO and FORM*/
+
+$signup-font-family: 'Lato', sans-serif;
+$signup-font-color: #fff;
+$input-border-color: #B2B2B2;
+$text-area-border-color: #B2B2B2;
+
+
+input[type=text],
+input[type=email] {
+  font-family: Lato;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 2%;
+  text-transform: uppercase;
+}
+
+.sign-up-form input {
+  border-top: 4px solid $input-border-color;
+  border-left: 4px solid $input-border-color;
+  border-bottom: 1px solid $input-border-color;
+  border-right: 1px solid $input-border-color;
+}
+
+.sign-up-form textarea {
+  border-top: 4px solid $text-area-border-color;
+  border-left: 4px solid $text-area-border-color;
+  border-bottom: 1px solid $text-area-border-color;
+  border-right: 1px solid $text-area-border-color;
+  font-family: Lato;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 2%;
+  text-transform: uppercase;
+}
+
+
+.sign-up-info {
+  font-family: $signup-font-family;
+  color: $signup-font-color;
+}
+
+.sign-up-info h2 {
+  font-size: 5em;
+}
+
+.sign-up-info span {
+  text-transform: uppercase;
+}
+
+.sign-up-info p {
+  font-size: 3em;
+  font-weight: 300;
+}
